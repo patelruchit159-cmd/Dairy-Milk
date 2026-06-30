@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dairy Milk Silk | Experience Pure Indulgence</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Playfair+Display:wght@600;700;900&amp;family=Be+Vietnam+Pro:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary": "#dbb8ff",
+                      "on-background": "#e8e2d5",
+                      "error": "#ffb4ab",
+                      "on-tertiary-container": "#c59588",
+                      "outline": "#968e9c",
+                      "on-primary-container": "#ba8af0",
+                      "secondary-fixed": "#ffe088",
+                      "tertiary-fixed-dim": "#efbaad",
+                      "on-secondary": "#3c2f00",
+                      "on-primary-fixed": "#2b0053",
+                      "tertiary-fixed": "#ffdbd2",
+                      "surface-container-high": "#2c2a22",
+                      "surface": "#15130c",
+                      "inverse-surface": "#e8e2d5",
+                      "on-error": "#690005",
+                      "on-secondary-container": "#342800",
+                      "on-secondary-fixed-variant": "#574500",
+                      "surface-dim": "#15130c",
+                      "tertiary-container": "#502e25",
+                      "on-primary": "#441276",
+                      "on-surface": "#e8e2d5",
+                      "surface-tint": "#dbb8ff",
+                      "secondary-fixed-dim": "#e9c349",
+                      "on-surface-variant": "#cdc3d2",
+                      "surface-container": "#212018",
+                      "on-tertiary-fixed": "#30130c",
+                      "surface-container-highest": "#37352c",
+                      "background": "#15130c",
+                      "surface-container-low": "#1d1c14",
+                      "outline-variant": "#4b4451",
+                      "on-error-container": "#ffdad6",
+                      "primary-fixed-dim": "#dbb8ff",
+                      "error-container": "#93000a",
+                      "surface-bright": "#3c3930",
+                      "inverse-primary": "#7548a8",
+                      "on-tertiary-fixed-variant": "#623d34",
+                      "on-tertiary": "#49281f",
+                      "primary-fixed": "#efdbff",
+                      "secondary-container": "#af8d11",
+                      "on-primary-fixed-variant": "#5c2e8e",
+                      "tertiary": "#efbaad",
+                      "secondary": "#e9c349",
+                      "primary-container": "#4b1b7d",
+                      "inverse-on-surface": "#333028",
+                      "surface-variant": "#37352c",
+                      "on-secondary-fixed": "#241a00",
+                      "surface-container-lowest": "#100e07"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "fontFamily": {
+                      "body-lg": ["Manrope"],
+                      "headline-lg-mobile": ["Playfair Display"],
+                      "label-md": ["Manrope"],
+                      "headline-lg": ["Playfair Display"],
+                      "headline-xl": ["Playfair Display"],
+                      "headline-md": ["Playfair Display"],
+                      "body-md": ["Manrope"]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #15130c;
+            color: #e8e2d5;
+            -webkit-font-smoothing: antialiased;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            background: rgba(55, 53, 44, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(219, 184, 255, 0.1);
+        }
+        .silk-gradient {
+            background: linear-gradient(135deg, #4b1b7d 0%, #2b0053 100%);
+        }
+        .gold-text {
+            background: linear-gradient(to bottom right, #ffe088, #e9c349);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+<!-- Global Preloader -->
+<div id="global-preloader" class="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#15130c] transition-opacity duration-500">
+    <div class="space-y-6 text-center max-w-md px-6">
+        <div class="flex justify-center text-primary animate-pulse">
+            <svg class="w-16 h-16" fill="currentColor" viewbox="0 0 48 48">
+                <path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"></path>
+            </svg>
+        </div>
+        <h2 class="text-2xl font-headline-lg gold-text tracking-wide font-headline-lg">Preparing the Silk Experience...</h2>
+        <div class="w-64 h-1 bg-surface-container rounded-full overflow-hidden mx-auto">
+            <div id="preloader-bar" class="h-full bg-primary w-0 transition-all duration-100"></div>
+        </div>
+        <p id="preloader-text" class="text-xs text-on-surface-variant font-body-md uppercase tracking-wider">0% Loaded</p>
+    </div>
+</div>
+<!-- Navigation Bar -->
+<header id="main-header" class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-transparent bg-transparent transition-all duration-300 px-6 md:px-10 py-4">
+    <div class="flex items-center gap-4 text-primary">
+        <div class="size-6">
+            <svg fill="currentColor" viewbox="0 0 48 48">
+                <path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"></path>
+            </svg>
+        </div>
+        <h2 class="text-on-background text-lg font-bold leading-tight tracking-tight font-body-lg">Dairy Milk</h2>
+    </div>
+    <div class="hidden md:flex flex-1 justify-center gap-10">
+        <a class="text-on-surface-variant hover:text-primary transition-colors text-sm font-medium leading-normal" href="#scroll-sequence-section">Swirl</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors text-sm font-medium leading-normal" href="#sensation">Sensation</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors text-sm font-medium leading-normal" href="#range">Range</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors text-sm font-medium leading-normal" href="#craftsmanship">Craftsmanship</a>
+    </div>
+    <div class="flex gap-4">
+        <button class="flex items-center justify-center rounded-full w-10 h-10 bg-white/5 hover:bg-primary-container transition-all text-on-surface">
+            <span class="material-symbols-outlined">shopping_cart</span>
+        </button>
+        <button class="flex items-center justify-center rounded-full w-10 h-10 bg-white/5 hover:bg-primary-container transition-all text-on-surface">
+            <span class="material-symbols-outlined">person</span>
+        </button>
+    </div>
+</header>
+
+<main>
+
+<!-- Scroll Sequence Fullscreen Section -->
+<section id="scroll-sequence-section" class="relative w-full h-[400vh] bg-[#15130c]">
+    <div class="sticky top-0 left-0 w-full h-screen overflow-hidden flex items-center justify-center">
+        <!-- Canvas for drawing frames -->
+        <canvas id="sequence-canvas" class="w-full h-full object-cover"></canvas>
+        
+        <!-- Dynamic Text Overlays -->
+        <!-- Main Top Heading/Subheading overlay -->
+        <div id="sequence-header" class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 transition-all duration-300 ease-out pointer-events-none">
+            <h1 class="text-on-background text-headline-xl md:text-[80px] font-headline-xl leading-tight mb-6">
+                Dairy Milk
+            </h1>
+            <p class="text-on-surface-variant text-body-lg max-w-2xl mx-auto uppercase tracking-widest font-body-lg">
+                The Taste of India
+            </p>
+        </div>
+
+        <div id="sequence-text-1" class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 transition-all duration-300 ease-out opacity-0 pointer-events-none">
+            <span class="text-primary font-label-md tracking-widest uppercase mb-4">Pure Liquid Luxury</span>
+            <h2 class="text-on-background text-4xl md:text-[64px] font-headline-xl leading-tight">
+                Experience the <span class="gold-text">Sensory Flow</span>
+            </h2>
+        </div>
+        <div id="sequence-text-2" class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 transition-all duration-300 ease-out opacity-0 pointer-events-none">
+            <span class="text-primary font-label-md tracking-widest uppercase mb-4">Slow-Refined Silk</span>
+            <h2 class="text-on-background text-4xl md:text-[64px] font-headline-xl leading-tight">
+                A Symphony of <span class="gold-text">Velvet Swirls</span>
+            </h2>
+        </div>
+        <div id="sequence-text-3" class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 transition-all duration-300 ease-out opacity-0 pointer-events-none">
+            <span class="text-primary font-label-md tracking-widest uppercase mb-4">Ultimate Indulgence</span>
+            <h2 class="text-on-background text-4xl md:text-[64px] font-headline-xl leading-tight">
+                Every Drop is <span class="gold-text">Pure Pleasure</span>
+            </h2>
+        </div>
+        
+        <!-- Scroll progress indicator -->
+        <div class="absolute bottom-10 left-10 flex flex-col gap-2">
+            <div class="text-xs text-on-surface-variant font-label-md tracking-widest">INHERENT SMOOTHNESS</div>
+            <div class="w-32 h-1 bg-surface-container rounded-full overflow-hidden">
+                <div id="sequence-progress" class="h-full bg-primary w-0 transition-all duration-75"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- The Silk Experience -->
+<section id="sensation" class="py-24 px-6 md:px-20 max-w-container-max mx-auto overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-primary/20 rounded-full blur-[80px]"></div>
+<img class="rounded-2xl relative z-10 w-full object-cover aspect-square shadow-2xl" data-alt="Close-up macro photography of a piece of chocolate melting on a tongue, capturing the intricate textures and the glossy sheen of the cocoa butter. The lighting is dramatic, using high-contrast shadows to emphasize the smoothness and rich brown tones of the Dairy Milk Silk chocolate. The image evokes a sensory feeling of warmth, taste, and luxury through its detailed rendering of textures." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAx8a7QLLw5iwF0NNxct-0zjFwR6Iipbu7RZJ7dqOOaYhM5r9DPE0AD1LeDuYdXO8LEDa-05mLsv4gSDgJVjJip6WoOP537Hls2JR99JPxF9G1Z3bzBxVehKn354P6kZ6Nnzn5SHv9W313yKwENaIov-4xtMdxGOsmVr2uHJieMsQcYBhPvZNPeVujxYkjyKY5Oj-xK5TSOoaETv4XXHN8cM-wi-gh0vX2ZP0oq_FVmQd4WUog2QJepbPfD52zhMEg6yAfoa89-g"/>
+</div>
+<div class="space-y-8">
+<span class="text-primary font-label-md tracking-widest uppercase">The Sensation</span>
+<h2 class="text-headline-lg font-headline-lg text-on-background">A Journey of Indulgence</h2>
+<p class="text-body-lg text-on-surface-variant leading-relaxed">
+                        Every bar of Dairy Milk Silk is a masterpiece of texture. We've refined our process to ensure the chocolate begins to melt the moment it touches your palate, releasing a symphony of rich cocoa and creamy milk.
+                    </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="glass-card p-6 rounded-xl space-y-3">
+<span class="material-symbols-outlined text-secondary text-3xl">flare</span>
+<h3 class="text-on-background font-bold text-lg">Velvety Smooth</h3>
+<p class="text-sm text-on-surface-variant">Triple-refined cocoa for a texture that defies gravity.</p>
+</div>
+<div class="glass-card p-6 rounded-xl space-y-3">
+<span class="material-symbols-outlined text-secondary text-3xl">favorite</span>
+<h3 class="text-on-background font-bold text-lg">Rich Cocoa</h3>
+<p class="text-sm text-on-surface-variant">Sustainably sourced beans that deliver deep chocolate notes.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Range -->
+<section class="py-24 bg-surface-container-lowest" id="range">
+<div class="max-w-container-max mx-auto px-6 md:px-20">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="space-y-4">
+<span class="text-primary font-label-md tracking-widest uppercase">Our Collection</span>
+<h2 class="text-headline-lg font-headline-lg text-on-background">Explore the Varieties</h2>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 hover:translate-x-2 transition-transform">
+                        View All <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Bubbly -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden rounded-2xl aspect-[3/4] mb-4">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A stylized product shot of Dairy Milk Silk Bubbly, featuring the unique aerated chocolate bubbles. The background is a vibrant, saturated purple with floating chocolate bubbles and gold dust. Soft studio lighting catches the curved edges of the chocolate pieces, highlighting their smooth surface and the play of light on the deep brown cocoa." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtaK7P8VQqltj1vqSTU13xEvt2z8UplCJpy7PoYsE0__hKIhuM1fplK44P4Znvw1v_HROuszt7xOy8SsStxK2Y9FgLZ3FLtYPE5bCi8H7FdGG_2Ui-OMhDjtRm_kqIGi1M-7hNo22IYvQMVe8oIGpBCW6CvMXxbRimzhGRK9ABgqgVi0bebNhBcZqyy8_8cacSlkkpWQLcwyDWfo5-JiLVzJOSY49UncHRrNpe1t2i5AU4sfDNxaazeypcXImlyebfztSCNOBugg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<h3 class="text-white font-bold text-xl">Silk Bubbly</h3>
+</div>
+</div>
+</div>
+<!-- Fruit & Nut -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden rounded-2xl aspect-[3/4] mb-4">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A premium image of Dairy Milk Silk Fruit and Nut, with visible whole almonds and succulent raisins embedded in the creamy chocolate bar. The image is shot from a top-down angle on a dark slate surface, with scattered raw almonds and dried grapes around the bar. Warm, moody lighting creates an atmosphere of traditional craftsmanship and rich flavor complexity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZR7cIpcEJqk8y_ZRxR-j4UN7btOWkBdXs2G0NCrMPNwocl4wF4UaA8p6QwKwiS3uOr3wBTVKZ4UhFKsi1vFhIPSo4sGtieZSx9O8OlO2naoAUWFJx44NTv-XOWEi7E8YWOsX4mj9XEoW1YDCWApTLra6AvP4ENHSRmB7qcaDNAKU3jNg8A2pufX0X7zKvxzvP1-iUOAqWQcsXOcOb0JF52jJaG30sglOTQ4qstSuEe_YYG-d3IDsFA-581pcxsY5oU6XHw8nIcQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<h3 class="text-white font-bold text-xl">Fruit &amp; Nut</h3>
+</div>
+</div>
+</div>
+<!-- Oreo -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden rounded-2xl aspect-[3/4] mb-4">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A dynamic shot of Dairy Milk Silk Oreo, showing the creamy chocolate shell cracked open to reveal the white cream and crunchy cookie pieces inside. Blue and white splashes representing the Oreo brand colors interact with deep purple chocolate swirls. The lighting is cool-toned and crisp, emphasizing the crunch and the contrast between the dark cocoa and light cream." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe7S3kGth63AXMBy34zfOSAp5QLEk8uV8knwid9urv6MRQPYhhYvt99SS0MY5f-LUNfhP6oLMHVxDLMiXsupMQieb9zMgalEnD9b1DAyJ1bXGyqP93yiq_HXuA1DnpQvmc7r4y0qJvdVE628hRw3pEGOHGvQwIm9AHOAN3pL9TwF-YfdI98-dVP-r4FZ5o6mePlrpxL1rsFxpNSO0yuE6IO33NpyDoPS87sxSnpuWvFLTAMGviJI2hxAVkUxZOzpHopaXgURV7pQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<h3 class="text-white font-bold text-xl">Silk Oreo</h3>
+</div>
+</div>
+</div>
+<!-- Plain -->
+<div class="group cursor-pointer">
+<div class="relative overflow-hidden rounded-2xl aspect-[3/4] mb-4">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="An artistic, minimalist presentation of a Classic Dairy Milk Silk bar, focusing purely on its sleek, rippled surface and deep purple packaging. The background is a soft-focus silk fabric that mimics the flow of the chocolate. Elegant gold lighting accents highlight the 'Silk' logo and the perfectly smooth curves of the chocolate bar's design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPUbPTL0yu_pg2CtdM3ixq31P7YwzU3yFE1HzWrgqEaILas8hZvFXUXTR9dDP3DfoWl0lmayFRrm9QLxqOkbqTfxBK4ouv0QHVrwGALyybZBNFA2SqzEvnEfUEX1n532SgYzxb75JkCoOyQtXuHbAofWyCkoiPRCLruh-Qi98LD_IcNF1SjnF_ESne3GU_J5-xSHzKorJEmymEZqmeovaIbwN_SHJ-QgsexXeSfQ-VeRlJYKHr6Xuj5XiKNZhbit_XaKwqNQeaPA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6">
+<h3 class="text-white font-bold text-xl">Classic Plain</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Craftsmanship -->
+<section class="py-24 relative overflow-hidden" id="craftsmanship">
+<div class="absolute inset-0 z-0">
+<webgl-shader class="w-full h-full opacity-30" src="{{DATA:ANIMATION:ANIMATION_1}}"></webgl-shader>
+</div>
+<div class="max-w-4xl mx-auto px-6 relative z-10 text-center">
+<span class="text-primary font-label-md tracking-widest uppercase block mb-6">The Art of Silk</span>
+<h2 class="text-headline-lg md:text-headline-xl font-headline-lg text-on-background mb-8">Crafted with Passion</h2>
+<p class="text-body-lg text-on-surface-variant leading-relaxed mb-12">
+                    Our master chocolatiers travel the globe to source the finest cocoa beans. Through a proprietary slow-churning process, we aerate and refine the chocolate until it achieves the signature "Silk" texture—a consistency that is neither liquid nor solid, but a perfect state of indulgence.
+                </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-left">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-full border border-primary flex items-center justify-center text-primary font-bold text-xl">01</div>
+<h4 class="text-on-background font-bold">Ethical Sourcing</h4>
+<p class="text-sm text-on-surface-variant">We partner with local farmers to ensure every bean is grown with respect for the earth.</p>
+</div>
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-full border border-primary flex items-center justify-center text-primary font-bold text-xl">02</div>
+<h4 class="text-on-background font-bold">Slow Refining</h4>
+<p class="text-sm text-on-surface-variant">Chocolate is churned for 72 hours at low temperatures to preserve delicate aromatic profiles.</p>
+</div>
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-full border border-primary flex items-center justify-center text-primary font-bold text-xl">03</div>
+<h4 class="text-on-background font-bold">Golden Pour</h4>
+<p class="text-sm text-on-surface-variant">Every bar is tempered to a perfect sheen, ensuring a crisp snap and a silky finish.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Indulgence CTA Section -->
+<section class="py-20 px-6 md:px-20">
+<div class="silk-gradient rounded-[40px] p-12 md:p-20 text-center relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-10 opacity-10 group-hover:scale-125 transition-transform duration-1000">
+<span class="material-symbols-outlined text-[200px]" style="font-variation-settings: 'FILL' 1;">fluid</span>
+</div>
+<h2 class="text-4xl md:text-6xl font-headline-xl text-white mb-8 relative z-10">Ready to Indulge?</h2>
+<p class="text-white/80 text-body-lg mb-10 max-w-xl mx-auto relative z-10">
+                    Join our Silk Society for exclusive flavors, early access to new releases, and curated gift boxes.
+                </p>
+<div class="relative z-10 max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+<input class="flex-1 bg-white/10 border-white/20 text-white rounded-full px-6 py-4 placeholder:text-white/40 focus:ring-2 focus:ring-secondary outline-none" placeholder="Your email address" type="email"/>
+<button class="bg-secondary text-on-secondary font-bold px-8 py-4 rounded-full hover:bg-secondary-fixed transition-colors">Join Now</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant pt-20 pb-10 px-6 md:px-20">
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+<div class="col-span-1 md:col-span-1 space-y-6">
+<div class="flex items-center gap-3 text-primary">
+<svg class="size-8" fill="currentColor" viewbox="0 0 48 48">
+<path d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"></path>
+</svg>
+<span class="text-white font-bold text-xl">Silk</span>
+</div>
+<p class="text-on-surface-variant text-sm">Elevating the art of chocolate since 1905. Pure ingredients, pure passion, pure silk.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface-variant hover:text-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface-variant hover:text-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">share</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-outline-variant flex items-center justify-center text-on-surface-variant hover:text-primary hover:border-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">play_circle</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Explore</h4>
+<ul class="space-y-4 text-on-surface-variant text-sm">
+<li><a class="hover:text-primary" href="#">Our Story</a></li>
+<li><a class="hover:text-primary" href="#">Cocoa Life</a></li>
+<li><a class="hover:text-primary" href="#">New Arrivals</a></li>
+<li><a class="hover:text-primary" href="#">Gift Sets</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Support</h4>
+<ul class="space-y-4 text-on-surface-variant text-sm">
+<li><a class="hover:text-primary" href="#">Order Status</a></li>
+<li><a class="hover:text-primary" href="#">Shipping &amp; Returns</a></li>
+<li><a class="hover:text-primary" href="#">Nutritional Info</a></li>
+<li><a class="hover:text-primary" href="#">Contact Us</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-6">Visit Us</h4>
+<div class="space-y-4 text-on-surface-variant text-sm">
+<p>Experience the flagship Silk Lounge.</p>
+<p class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                        7th Ave, New York, NY 10019
+                    </p>
+<p class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">call</span>
+                        1-800-SILK-INDULGE
+                    </p>
+</div>
+</div>
+</div>
+<div class="border-t border-outline-variant pt-10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-on-surface-variant">
+<p>© 2023 Dairy Milk Silk. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Service</a>
+<a class="hover:text-white" href="#">Cookie Settings</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple scroll reveal interaction
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        // Exclude the scroll-sequence-section from general reveal transitions
+        document.querySelectorAll('section:not(#scroll-sequence-section)').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+
+        // No instant activation needed as scroll sequence is top-level
+
+        // --- Scroll Sequence Animation Script ---
+        const canvas = document.getElementById('sequence-canvas');
+        const ctx = canvas.getContext('2d');
+        const totalFrames = 226;
+        const images = [];
+        let loadedCount = 0;
+        let currentFrameIndex = 1;
+
+        const preloaderBar = document.getElementById('preloader-bar');
+        const preloaderText = document.getElementById('preloader-text');
+        const preloader = document.getElementById('global-preloader');
+        const section = document.getElementById('scroll-sequence-section');
+
+        // Preload images and cache as decoded ImageBitmaps for smooth, latency-free 4K rendering
+        function preloadImages() {
+            return new Promise((resolve) => {
+                // Initialize the array with nulls to safely set bitmaps out of order
+                for (let i = 0; i < totalFrames; i++) {
+                    images.push(null);
+                }
+                
+                let completedCount = 0;
+                
+                for (let i = 1; i <= totalFrames; i++) {
+                    const img = new Image();
+                    img.src = `./ezgif-2c399b6ef50a5122-jpg/ezgif-frame-${String(i).padStart(3, '0')}.jpg`;
+                    img.onload = async () => {
+                        try {
+                            // Decode to GPU texture asynchronously
+                            const bitmap = await createImageBitmap(img);
+                            images[i - 1] = bitmap;
+                        } catch (e) {
+                            // Fallback to image if ImageBitmap creation fails
+                            images[i - 1] = img;
+                        }
+                        
+                        completedCount++;
+                        const percentage = Math.round((completedCount / totalFrames) * 100);
+                        if (preloaderBar) preloaderBar.style.width = `${percentage}%`;
+                        if (preloaderText) preloaderText.textContent = `${percentage}% Loaded`;
+                        
+                        if (completedCount === totalFrames) {
+                            setTimeout(() => {
+                                if (preloader) {
+                                    preloader.classList.add('opacity-0');
+                                    setTimeout(() => preloader.remove(), 500);
+                                }
+                            }, 500);
+                            resolve();
+                        }
+                    };
+                    img.onerror = () => {
+                        completedCount++;
+                        if (completedCount === totalFrames) resolve();
+                    };
+                }
+            });
+        }
+
+        function renderFrame(index) {
+            const img = images[index - 1];
+            if (!img) return;
+            
+            const rect = canvas.getBoundingClientRect();
+            if (rect.width === 0 || rect.height === 0) return;
+            
+            // Render at 4K width (3840px) dynamically scaled to preserve layout aspect ratio
+            const targetWidth = 3840;
+            const targetHeight = Math.floor(3840 * (rect.height / rect.width));
+            
+            if (canvas.width !== targetWidth || canvas.height !== targetHeight) {
+                canvas.width = targetWidth;
+                canvas.height = targetHeight;
+            }
+            
+            // Enable high quality image scaling algorithms on context
+            ctx.imageSmoothingEnabled = true;
+            ctx.imageSmoothingQuality = 'high';
+            
+            // Apply GPU-accelerated contrast and brightness to simulate 4K HDR quality
+            ctx.filter = 'contrast(1.08) brightness(1.02) saturate(1.05)';
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            const imgRatio = img.width / img.height;
+            const canvasRatio = canvas.width / canvas.height;
+            
+            let drawWidth, drawHeight, drawX, drawY;
+            
+            if (canvasRatio > imgRatio) {
+                drawWidth = canvas.width;
+                drawHeight = canvas.width / imgRatio;
+                drawX = 0;
+                drawY = (canvas.height - drawHeight) / 2;
+            } else {
+                drawWidth = canvas.height * imgRatio;
+                drawHeight = canvas.height;
+                drawX = (canvas.width - drawWidth) / 2;
+                drawY = 0;
+            }
+            
+            ctx.drawImage(img, drawX, drawY, drawWidth, drawHeight);
+        }
+
+        function updateTextOverlays(progress) {
+            const headerEl = document.getElementById('sequence-header');
+            const text1 = document.getElementById('sequence-text-1');
+            const text2 = document.getElementById('sequence-text-2');
+            const text3 = document.getElementById('sequence-text-3');
+            
+            function getOpacity(p, start, peakStart, peakEnd, end) {
+                if (p < start || p > end) return 0;
+                if (p >= peakStart && p <= peakEnd) return 1;
+                if (p < peakStart) {
+                    return (p - start) / (peakStart - start);
+                } else {
+                    return 1 - (p - peakEnd) / (end - peakEnd);
+                }
+            }
+            
+            if (headerEl) {
+                // Header starts fully visible at scroll progress=0 and fades out completely by 30% (progress=0.3)
+                const op = Math.max(0, 1 - (progress / 0.3));
+                headerEl.style.opacity = op;
+                headerEl.style.transform = `translateY(${(1 - op) * -30}px)`;
+            }
+            if (text1) {
+                // Shifts to start revealing after the main header fades out
+                const op = getOpacity(progress, 0.3, 0.38, 0.48, 0.55);
+                text1.style.opacity = op;
+                text1.style.transform = `translateY(${(1 - op) * 20}px)`;
+            }
+            if (text2) {
+                const op = getOpacity(progress, 0.53, 0.60, 0.70, 0.78);
+                text2.style.opacity = op;
+                text2.style.transform = `translateY(${(1 - op) * 20}px)`;
+            }
+            if (text3) {
+                const op = getOpacity(progress, 0.76, 0.83, 0.92, 0.98);
+                text3.style.opacity = op;
+                text3.style.transform = `translateY(${(1 - op) * 20}px)`;
+            }
+        }
+
+        function onScroll() {
+            if (!section) return;
+            const rect = section.getBoundingClientRect();
+            const scrollHeight = rect.height - window.innerHeight;
+            
+            if (scrollHeight <= 0) return;
+            
+            let progress = -rect.top / scrollHeight;
+            progress = Math.max(0, Math.min(1, progress));
+            
+            const progressEl = document.getElementById('sequence-progress');
+            if (progressEl) progressEl.style.width = `${progress * 100}%`;
+            
+            const frameIndex = Math.floor(progress * (totalFrames - 1)) + 1;
+            currentFrameIndex = frameIndex;
+            
+            requestAnimationFrame(() => {
+                renderFrame(frameIndex);
+                updateTextOverlays(progress);
+            });
+        }
+
+        window.addEventListener('resize', () => {
+            renderFrame(currentFrameIndex);
+        });
+
+        window.addEventListener('scroll', onScroll);
+
+        // Transparent navbar frosted transition on scroll
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.remove('bg-transparent', 'border-transparent', 'py-4');
+                header.classList.add('bg-[#15130c]/85', 'backdrop-blur-md', 'border-white/5', 'py-3', 'shadow-lg');
+            } else {
+                header.classList.remove('bg-[#15130c]/85', 'backdrop-blur-md', 'border-white/5', 'py-3', 'shadow-lg');
+                header.classList.add('bg-transparent', 'border-transparent', 'py-4');
+            }
+        });
+
+        // Start preloading and run initial render
+        preloadImages().then(() => {
+            onScroll();
+        });
+    </script>
+</body></html>
